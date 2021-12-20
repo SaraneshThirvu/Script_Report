@@ -1,0 +1,104 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Prompt",
+ "creation": "2021-12-17 16:43:49.343258",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "emp_id",
+  "emp_name",
+  "from_date",
+  "to_date",
+  "absent_days",
+  "pf",
+  "da",
+  "basic_pay",
+  "role"
+ ],
+ "fields": [
+  {
+   "fieldname": "emp_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "empid",
+   "reqd": 1
+  },
+  {
+   "fieldname": "emp_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "empname",
+   "reqd": 1
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "fromdate",
+   "reqd": 1
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "todate",
+   "reqd": 1
+  },
+  {
+   "fieldname": "absent_days",
+   "fieldtype": "Int",
+   "label": "absentdays",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pf",
+   "fieldtype": "Currency",
+   "label": "pf",
+   "reqd": 1
+  },
+  {
+   "fieldname": "da",
+   "fieldtype": "Currency",
+   "label": "da",
+   "reqd": 1
+  },
+  {
+   "fieldname": "basic_pay",
+   "fieldtype": "Currency",
+   "label": "basicpay",
+   "reqd": 1
+  },
+  {
+   "fieldname": "role",
+   "fieldtype": "Select",
+   "label": "role",
+   "options": "Developer\nHR\nTrainee\nDesigner",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-12-17 16:49:59.704895",
+ "modified_by": "Administrator",
+ "module": "Thirvusoft",
+ "name": "TS_Payroll",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
